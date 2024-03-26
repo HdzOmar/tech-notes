@@ -14,3 +14,7 @@ git branch:
 	Command to list all your local branches(and active branch).
 git checkout -b <new_branch_name>:
 	Command to create a new local branch and switching to it.
+git config --global user.email "mail@mail.com":
+	Command to set the email asociated with the commits
+git config --global user.name "Name":
+	Command to set the name asociated with the commits
