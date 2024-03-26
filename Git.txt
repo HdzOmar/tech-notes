@@ -18,3 +18,5 @@ git config --global user.email "mail@mail.com":
 	Command to set the email asociated with the commits
 git config --global user.name "Name":
 	Command to set the name asociated with the commits
+git branch - m:
+	Command to change the name of the current branch
