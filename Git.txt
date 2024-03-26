@@ -25,3 +25,8 @@ git pull:
 	repository and merges them into your current local branch
 git pull origin main:
 	Command that fetches from specific branch
+git pull origin main --allow-unrelated-histories:
+	Command that fetches even if the branches have a lot of
+	diferences like when initializing a repository
+git branch --set-upstream-to=origin/remote-branch local-branch:
+	Command to set tracking between that remote-local branch
