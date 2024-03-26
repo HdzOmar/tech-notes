@@ -1,8 +1,8 @@
 git init:
-	Command to initialize a new git repository (local current folder)
+	Command to initialize a new git repository (local current folder).
 git remote add origin <repository_URL>:
 	Command to add a repository as the remote for your local repository
-	(tells Git where to send your changes online.)
+	(tells Git where to send your changes online).
 git add .:
 	Command to stage all changes in the current directory for the next
 	commit (local).
@@ -15,18 +15,21 @@ git branch:
 git checkout -b <new_branch_name>:
 	Command to create a new local branch and switching to it.
 git config --global user.email "mail@mail.com":
-	Command to set the email asociated with the commits
+	Command to set the email asociated with the commits.
 git config --global user.name "Name":
-	Command to set the name asociated with the commits
+	Command to set the name asociated with the commits.
 git branch - m:
-	Command to change the name of the current branch
+	Command to change the name of the current branch.
+git fetch:
+	Command that fetches the lastest changes from the remote
+	repository but don't merge them (just local remote tracking).
 git pull:
 	Command that fetches the latest changes from the remote
-	repository and merges them into your current local branch
+	repository and merges them into your current local branch.
 git pull origin main:
-	Command that fetches from specific branch
+	Command that fetches from specific branch.
 git pull origin main --allow-unrelated-histories:
 	Command that fetches even if the branches have a lot of
-	diferences like when initializing a repository
+	diferences like when initializing a repository.
 git branch --set-upstream-to=origin/remote-branch local-branch:
-	Command to set tracking between that remote-local branch
+	Command to set tracking between that remote-local branch.
