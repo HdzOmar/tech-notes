@@ -1,5 +1,16 @@
 git init:
 	Command to initialize a new git repository (local current folder)
-git remote add origin <repository_URL>: command to add a repository as the remote
-	for your local repository(tells Git where to send your changes online.)
-git add .: Command to stage all changes in the current directory for the next commit.
+git remote add origin <repository_URL>:
+	Command to add a repository as the remote for your local repository
+	(tells Git where to send your changes online.)
+git add .:
+	Command to stage all changes in the current directory for the next
+	commit (local).
+git commit -m "Commit description":
+	Command to commit the changes to the local repository.
+git push -u origin <remote-branch-name>:
+	Command to push your changes to a specific remote branch.
+git branch:
+	Command to list all your local branches(and active branch).
+git checkout -b <new_branch_name>:
+	Command to create a new local branch and switching to it.
