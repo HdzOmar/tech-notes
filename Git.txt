@@ -20,3 +20,8 @@ git config --global user.name "Name":
 	Command to set the name asociated with the commits
 git branch - m:
 	Command to change the name of the current branch
+git pull:
+	Command that fetches the latest changes from the remote
+	repository and merges them into your current local branch
+git pull origin main:
+	Command that fetches from specific branch
