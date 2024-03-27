@@ -1,0 +1,2 @@
+ng g c <path/component_name>:
+	Command to create a new component.
