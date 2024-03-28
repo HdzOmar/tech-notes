@@ -1,2 +1,16 @@
 ng g c <path/component_name>:
 	Command to create a new component.
+observable: Observable<dataType>:
+	It's for handling async requests. Declare it, assign the request for data,
+	subscribe to it. Just wait for the data and notify to all the subscriptions.
+observable.subscribe({next: params => {}, error: error => {}, complete: () => {}}):
+	Func to set an observer who will be activated once observable changes.
+Observer:
+	Object which is activated by the observable, observers subscribe to observables.
+	Got attributes/methods, next, error and complete.
+Subject:
+	It's a kind of observable. When subscribe to it, just registers, don't execute.
+	To trigger, it uses subject.next(value) and with the complete method as well.
+BehaviorSubject:
+	Similar to subject but this can have an initial value plus it passes the last
+	value to each new subscription automatically.
