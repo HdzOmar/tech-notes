@@ -14,3 +14,5 @@ Subject:
 BehaviorSubject:
 	Similar to subject but this can have an initial value plus it passes the last
 	value to each new subscription automatically.
+Angular version:
+	Command "ng version" gets the angular version, must be inside an angular folder.
