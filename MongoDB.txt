@@ -1,0 +1,7 @@
+Cluster:
+	Group of servers and other resources that act like a single system.
+Create an Atlas Cluster:
+	
+IP access list:
+	Allows only certain IPs to access to your cluster it's on your cluster
+	/Security section/Network Access.

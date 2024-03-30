@@ -16,3 +16,11 @@ BehaviorSubject:
 	value to each new subscription automatically.
 Angular version:
 	Command "ng version" gets the angular version, must be inside an angular folder.
+Rename a component:
+	First change the component .ts,.html,.css files and its folder name. Second in
+	component.ts@Component rename selector,templateUrl and styleUrls. Third in 
+	app.module.ts update the component import and @NgModule declarations. Fourth
+	(if own route) app-routingmodule.ts change component import and Routes path.
+	Fifth all the component references in another htmls <component></component>.
+Move component folder:
+	First move the folder. Second inside app.module.ts update the import path.
