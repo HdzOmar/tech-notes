@@ -1,0 +1,11 @@
+Express:
+	Back end web aplication framework for building RESTful APIs
+Express routing:
+	//For handling requests based on the url and http method.
+	//Import express, create express instance. Then select the router.
+	import express from 'express';const app=express();app.use("api/test",testRouter);
+	//In testRouter just import Router, instanciate it and create routes.
+	import {Router} from 'express'; const router=Router();
+	router.get("/", (req, res) => {res.send(sample_clothes);})
+    
+	

@@ -1,0 +1,8 @@
+Reboot and select proper boot device or insert boot media in selected boot device
+and press a key issue:
+	Error about HDD or SSD not being recognized by the pc, enter to the BIOS
+	and search for the SATA ports if yout disk is not there could be SATA
+	cables damaged or disk damaged, try change one or another.
+See windows 10 key:
+	Open Windows PowerShell, and execute the the next command
+	(Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey

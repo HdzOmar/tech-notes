@@ -12,6 +12,8 @@ git push -u origin <remote-branch-name>:
 	Command to push your changes to a specific remote branch.
 git branch:
 	Command to list all your local branches(and active branch).
+git branch -d branch-name:
+	Command to delete a local branch.
 git checkout -b <new_branch_name>:
 	Command to create a new local branch and switching to it.
 git config --global user.email "mail@mail.com":
