@@ -1,3 +1,5 @@
+npm install @angular/cli:
+	Command to install angular cli, add "-g" after install, to install globally.
 ng g c <path/component_name>:
 	Command to create a new component.
 observable: Observable<dataType>:
