@@ -1,0 +1,20 @@
+Mongoose:
+	Is like an ORM but for documents instead of relational DB,
+	it's a ODM(Object Document Mapper), it's commonly used
+	instead of mongoDB native drivers, to manage the Mongo DB.
+Node interface:
+	It defines how the data should look like once inside node.
+Mongoose schema:
+	It tells mongoose how the db documents look like.
+Mongoose virtuals:
+	Document properties that do not persist or get stored in DB.
+	They are just calculated or logical properties.
+Mongoose timestamps:
+	Option(boolean) in schemas for adding createdAt and updatedAt
+	properties to your mongoose schema.
+bcryptjs:
+	Package to encrypt passwords.
+express-async-handler:
+	Package with middleware for handling errors in async funcs.
+dotenv:
+	Module to load environment variables into process.env.

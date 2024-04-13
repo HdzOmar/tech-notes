@@ -7,5 +7,9 @@ Express routing:
 	//In testRouter just import Router, instanciate it and create routes.
 	import {Router} from 'express'; const router=Router();
 	router.get("/", (req, res) => {res.send(sample_clothes);})
+Express--async-handler:
+	Package with middleware for handling errors in async funcs. You can import it
+	with any name then use it like: asyncHandler(async(req,res)=>
+	{const data = await data(); res.send(data);})
     
 	

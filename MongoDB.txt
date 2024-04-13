@@ -5,3 +5,15 @@ Create an Atlas Cluster:
 IP access list:
 	Allows only certain IPs to access to your cluster it's on your cluster
 	/Security section/Network Access.
+Connect to database(connection string):
+	Go to Deployment/database->Connect->Connect your application, there
+	will be the connection string. With connection string replace password
+	for the user you want to use, then use it in your .env file in the
+	backend client, to create the connection with this database, app name
+	could also be changed acording to what name do you want inside backend.
+.env file:
+	File with the credentials for db connection(must not be uploaded to git).
+Create a collection Atlas:
+	It is commonly created by itself when connecting to the database or
+	trying to add new registers (ex. creating a connection from node having
+	routes with models.create instructions).

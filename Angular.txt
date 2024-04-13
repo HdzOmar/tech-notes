@@ -1,7 +1,11 @@
 npm install @angular/cli:
 	Command to install angular cli, add "-g" after install, to install globally.
+npm ci:
+	Command to install dependencies avoiding problems with package-lock.json.
 ng g c <path/component_name>:
 	Command to create a new component.
+ng g s <path/service_name>:
+	Command to create a new service.
 observable: Observable<dataType>:
 	It's for handling async requests. Declare it, assign the request for data,
 	subscribe to it. Just wait for the data and notify to all the subscriptions.
@@ -26,3 +30,10 @@ Rename a component:
 	Fifth all the component references in another htmls <component></component>.
 Move component folder:
 	First move the folder. Second inside app.module.ts update the import path.
+Interceptor:
+	Angular middleware who sits between application and the server catching the
+	requests/responses. We can perform general tasks such adding an authorization
+	header to all the requests or showing a loading component when we are waiting
+	for the server response.
+ng g interceptor <path/interceptor_name>:
+	Command to generate a new interceptor.
