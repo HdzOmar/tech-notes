@@ -37,3 +37,19 @@ Interceptor:
 	for the server response.
 ng g interceptor <path/interceptor_name>:
 	Command to generate a new interceptor.
+Use javascript packages in typescript:
+	You need to install the package (ex: npm install leaflet), and then install
+	its types (ex: npm install --save @types/leaflet).
+ViewChild():
+	In Angular, ViewChild is a core function used to access and interact with child
+	elements directly from their parent component, you acces DOM elements.
+Guards:
+	Allows us to control whether users can navigate to|away from certain routes.
+	supported guards: CanActivate, CanDeactivate, CanLoad, CanActivateChild, CanMatch.
+ng g guard <path/guard_name>:
+	Command to generate a new guard.
+How to create a guard:
+	Create the guard with the command, then in app-routing.module, in the declaration
+	of the route you want, add extra paramether with the guard, example:
+	{path:'checkout', component: CheckoutPageComponent, canActivate: [AuthGuard]}.
+	Then just go inside AuthGuard to do all validations needed.

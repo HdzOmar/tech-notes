@@ -14,3 +14,6 @@ Get-ExecutionPolicy:
 	undefined,RemoteSigned,Default,Bypass,AllSigned)
 Set-ExecutionPolicy Unrestricted:
 	Command to set the scripts execution policy to Unrestricted/restricted/etc.
+Editor loses focus when changing between desktops:
+	Restart windows explorer or/and, moving between desktops the apps involved, or even
+	deleting desktops and creating those again.
