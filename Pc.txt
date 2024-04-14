@@ -6,3 +6,14 @@ and press a key issue:
 See windows 10 key:
 	Open Windows PowerShell, and execute the the next command
 	(Get-WmiObject -query 'select * from SoftwareLicensingService').OA3xOriginalProductKey
+Running scripts is disabled:
+	Error message, could be caused because execution policy could be restricted.
+	In PowerShell use "Set-ExecutionPolicy Unrestricted".
+Get-ExecutionPolicy:
+	Command to get the current scripts execution policy(Restricted,Unrestricted
+	undefined,RemoteSigned,Default,Bypass,AllSigned)
+Set-ExecutionPolicy Unrestricted:
+	Command to set the scripts execution policy to Unrestricted/restricted/etc.
+Editor loses focus when changing between desktops:
+	Restart windows explorer or/and, moving between desktops the apps involved, or even
+	deleting desktops and creating those again.
