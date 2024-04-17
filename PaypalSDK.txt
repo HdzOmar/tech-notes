@@ -1,0 +1,8 @@
+Create a testing app:
+	Using you paypal normal account login into "paypal developers",
+	go to "dashboard" and select "sandbox", go to "apps & credentials",
+	click on "create app" fill and end.
+Client ID:
+	This is the key used for referencing in your web application where
+	payments will be directed. You get it from paypal developer-->
+	Apps & Credentials-->"Your app name"-->API credentials-->Client ID
