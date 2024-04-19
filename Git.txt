@@ -35,3 +35,12 @@ git pull origin main --allow-unrelated-histories:
 	diferences like when initializing a repository.
 git branch --set-upstream-to=origin/remote-branch local-branch:
 	Command to set tracking between that remote-local branch.
+Publish to Render.com:
+	Log into render.com, select create web service, click on conect
+	Github, authorize Github, then select either install for all
+	your repositories or only the one you want to publish, after that
+	on create web services select your repository click to conect,
+	in build commands you need to put the commands responsible for the
+	compilation of your project, these should be declared on your
+	package.json in the root of your project. Example. npm run prebuild;
+	npm run build. For starting Command example npm start.
