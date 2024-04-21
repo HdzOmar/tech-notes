@@ -53,3 +53,28 @@ How to create a guard:
 	of the route you want, add extra paramether with the guard, example:
 	{path:'checkout', component: CheckoutPageComponent, canActivate: [AuthGuard]}.
 	Then just go inside AuthGuard to do all validations needed.
+Update packages:
+	You can use npm-check-updates command to check available updates, and after that
+	make those updrades with "ncu -u"
+npm-check-updates:
+	Command to show available updates for your package.json dependencies(shorthand: ncu).
+	with "ncu -u" upgrades your package.json dependencies to the latest versions,
+	ignoring specified versions.
+npm install -g npm-check-updates:
+	Command to install npm-check-updates, globally in your computer.
+npm install:
+	Command to install all your package.json dependencies, when just installed your	
+	project, or upgraded your package.json, npm install those updates. Use --force when
+	some packages aren't completly compatible, or you want to install no matter what.
+Option "browserTarget" is deprecated: Use 'buildTarget' instead:
+	Error message for building angular project, got o angular.json and change
+	browserTarget to buildTarget.
+ng serve:
+	Command to run the angular app, you can add "--port xxxx" to specify a port.
+Change angular built files folder:
+	Go to Angular.json, inside build->options just set outputPath to the path you want.
+Change between environments:
+	You can use a folder with ts configuration for each environment for example a
+	environment.ts and a environment.prod.ts with an object with production variable
+	set to true or false, then in angular.json, architect->build-> configurations -> 
+	environment X -> fileReplacements -> replace: "x file", with: "y file"
